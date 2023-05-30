@@ -13,6 +13,8 @@ create & active virtual enviroment then install dependencies:
 ```
 $ python3 -m venv env  # use `python ...` on Windows
 $ source env/bin/activate  # use `env\Scripts\activate` on Windows
+
+install dependencies
 (env) $ pip install -r requirements.txt
 ```
 
@@ -25,10 +27,12 @@ pwd: 111111
 generate fake data then run:
 ```
 (env) $ flask forge
+(env) $ flask admin
 (env) $ flask run
-* Running on http://127.0.0.1:5000/
-```
 
+* Running on http://127.0.0.1:5000/
+* Login by admin/111111
+```
 
 ## License
 

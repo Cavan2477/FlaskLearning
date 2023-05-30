@@ -65,7 +65,7 @@ def admin(username, password):
     else:
         click.echo('Creating user...')
 
-        user = User(username=username, name='Admin')
+        user = User(username=username, name='admin')
         user.set_password(password)
 
         db.session.add(user)
