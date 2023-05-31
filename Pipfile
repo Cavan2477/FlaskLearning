@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+blinker = "*"
+click = "*"
+colorama = "*"
+coverage = "*"
+flask = "*"
+flask-login = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
+greenlet = "*"
+itsdangerous = "*"
+jinja2 = "*"
+mako = "*"
+markupsafe = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+werkzeug = "*"
+
+[dev-packages]
+black = "*"
+watchdog = "*"
+
+[requires]
+python_version = "3.11"

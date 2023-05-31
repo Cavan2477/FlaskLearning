@@ -1,5 +1,0 @@
-flask
-python-dotenv
-flask-login
-flask-sqlalchemy
-coverage
